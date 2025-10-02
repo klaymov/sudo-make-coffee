@@ -1,8 +1,6 @@
 name: Auto Commit
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"   # кожну 1 хвилину
   workflow_dispatch:         # можливість запустити вручну
 
 jobs:
